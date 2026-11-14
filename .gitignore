@@ -1,0 +1,14 @@
+# Local tools, credentials and temporary files
+.env
+.env.*
+!.env.example
+node_modules/
+.sites-runtime/
+.sites-checkout*/
+*.log
+*.tar.gz
+Thumbs.db
+.DS_Store
+
+# Empty asset left by an interrupted download; the page uses hero.jpg
+dist/assets/workshop.jpg
